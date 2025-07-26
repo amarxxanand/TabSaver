@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Saver",
+  "version": "1.0",
+  "description": "Manually save all open tabs and reopen them later.",
+  "permissions": ["tabs", "storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "images/tabsaver.png"
+  },
+  "icons": {
+    "48": "images/tabsaver.png"
+  }
+}

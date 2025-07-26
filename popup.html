@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tab Saver</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>TabSaver</h1>
+            <p>Save all open tabs with (1+1) clicks.</p>
+        </header>
+        <div class="button-group">
+            <button id="save-tabs-btn" class="btn primary">Save All Tabs</button>
+            <button id="clear-tabs-btn" class="btn secondary">Clear All</button>
+        </div>
+        <hr>
+        <div class="search-container">
+            <input type="text" id="search-box" placeholder="Search saved tabs...">
+        </div>
+        <div id="tabs-list-container">
+            <p id="empty-message">No tabs saved yet. Click "Save All Tabs" to begin.</p>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
