@@ -8,7 +8,7 @@ body {
     height: 600px;
     min-height: 600px;
     margin: 0;
-    padding: 16px;
+    padding: 8px;
     font-size: 14px;
     box-sizing: border-box;
     border-radius: 6px;
@@ -27,12 +27,16 @@ html {
     flex-direction: column;
     border-radius: 6px;
     background-color: #000000;
-    padding: 8px;
-    margin: -8px;
+
+    height: 100%;
+    box-sizing: border-box;
 }
 
 header {
-    margin-bottom: 16px;
+    margin-bottom: 6px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
 }
 
 header h1 {
@@ -47,8 +51,8 @@ header h1 {
 
 header p {
     font-size: 12px;
-    margin: 4px 0 0;
-    color: #a0a0a0;
+    margin: 2px 0 0;
+    color: #ffffff;
 }
 
 hr {
@@ -95,7 +99,7 @@ hr {
 }
 
 .search-container {
-    margin-bottom: 16px;
+    margin-bottom: 10px;
 }
 
 #search-box {
@@ -126,11 +130,12 @@ h2 {
 }
 
 #tabs-list-container {
-    max-height: 500px;
+    max-height: 600px;
     overflow-y: auto;
     background-color: #252526;
     border-radius: 6px;
     padding: 4px;
+    
 }
 
 #empty-message {
